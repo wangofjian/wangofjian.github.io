@@ -6,7 +6,7 @@ excerpt_separator: "<!-- more -->"
 github: wangofjian
 author: "wangofjian"
 email: wangofjian#163.com
-name: "未知的"
+name: "wangofjian's blog"
 url: http://blog.weizhi.de
 domain: blog.weizhi.de
 all_categories: [
@@ -21,7 +21,8 @@ all_categories: [
 
 paginate: 8
 paginate_path: "posts/page:num"
-timezone: America/Los_Angeles
+#timezone: America/Los_Angeles
+timezone: Europe/Amsterdam
 
 collections:
   docs:

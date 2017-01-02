@@ -4,9 +4,9 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="分类：Categories - 未知的 - 作者:wangofjian"/> 
-	
-    <title>分类：Categories - 未知的</title>
+    <meta name="description" content="Github Jekyll 时区设置 - 未知的 - 作者:wangofjian"/> 
+	<meta name="keywords" content="问题,博客"/>
+    <title>Github Jekyll 时区设置 - 未知的</title>
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom CSS -->
@@ -75,24 +75,82 @@
       <div class="row">
         <!-- Blog Entries Column -->
         <div class="col-md-8">
-          <ul class="list-unstyled">
- 
-	 
-   <a name="read"></a>
-   <h2>read(4)</h2> 
-      
-    <li><h4><span>02 Jan 2017</span> &raquo; <a href="/posts/Test-TimeZone.html">Github Jekyll 时区设置</a></h4></li>
-	 
-    <li><h4><span>01 Jan 2017</span> &raquo; <a href="/posts/Build-A-Blog.html">Build a Blog with Jekyll,Github</a></h4></li>
-	 
-    <li><h4><span>02 Jan 2016</span> &raquo; <a href="/posts/Markdown-Readme.html">Markdown Readme</a></h4></li>
-	 
-    <li><h4><span>01 Jan 2010</span> &raquo; <a href="/posts/Hello-World-Jekyll.html">Hello World! jekyll</a></h4></li>
-	 
-    
- 
-</ul>
+          <!-- Navi -->
+<a href="/">首页</a>&nbsp;>&nbsp;<a href="/posts/read.html">读书笔记</a>&nbsp;>&nbsp;正文
+<!-- Title -->
+<h2>Github Jekyll 时区设置</h2>
+<b>标签：</b><a href="/tags.html#问题"><i>问题</i></a>, <a href="/tags.html#博客"><i>博客</i></a>
+<div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	2017-01-02
+</div>
+<br/>
+<hr>
+<!-- adsense_468x60 -->
+<div style="text-align:center;margin-top:15px;">
+	  
+</div>
+<br/>
 
+<!-- content -->
+<div style="text-indent:2em;">
+<h1 id="jekyll-无法及时更新post内容原因">jekyll 无法及时更新post内容原因</h1>
+
+<p>由于timezone设置问题，导致我新建了2017-01-02的post之后，jekyll无法更新，jekyll build也不行，没有出错信息。<br />
+google了一下，发现是timezone的问题，jekyll要求只能更新过去的blog。<br />
+更改了blog的时间，果然可以了。<br />
+参考网上建议，改成</p>
+<blockquote>
+  <p>timezone: Europe/Amsterdam</p>
+</blockquote>
+
+<p>先这样</p>
+
+</div>
+
+<br/>
+<b>原创文章，转载请注明出处！</b>
+<br/>
+<b>本文链接：</b><a href="http://localhost:4000/posts/Test-TimeZone.html" title="">http://localhost:4000/posts/Test-TimeZone.html</a>
+
+<!-- next and previous -->
+<div style="margin-top:15px; margin-bottom:10px">
+  
+  <span class="next">
+    上篇：
+    <a href="/posts/The-New-Year.html">
+      2017新年到！
+    </a>
+  </span>
+   
+  
+</div>
+<hr>
+<!-- Blog Comments -->
+<div class="media">
+  <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//wangofjian.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+ 
+</div>
         </div>
         <!-- Blog Sidebar Widgets Column -->
         <div class="col-md-4">
