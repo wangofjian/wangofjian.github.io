@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title></title>
+ <link href="http://blog.weizhi.de/atom.xml" rel="self"/>
+ <link href="http://blog.weizhi.de"/>
+ <updated>2017-01-01T22:03:08-08:00</updated>
+ <author>
+   <name>wangofjian</name>
+   <email>wangofjian#163.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>2017新年到！</title>
+   <link href="http://blog.weizhi.de/posts/The-New-Year.html"/>
+   <updated>2017-01-01T00:00:00-08:00</updated>
+   <id>/posts/The-New-Year</id>
+   <content type="html">&lt;h1 id=&quot;迎接新的一年&quot;&gt;迎接新的一年&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新年新希望&lt;/li&gt;
+  &lt;li&gt;新年新气象&lt;/li&gt;
+  &lt;li&gt;别给自己负担&lt;/li&gt;
+  &lt;li&gt;尽全力做一件事，就非常有意义&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World! jekyll</title>
+   <link href="http://blog.weizhi.de/posts/Hello-World-Jekyll.html"/>
+   <updated>2010-01-01T00:00:00-08:00</updated>
+   <id>/posts/Hello-World-Jekyll</id>
+   <content type="html">&lt;h1 id=&quot;你好jekyll&quot;&gt;你好，jekyll！&lt;/h1&gt;
+&lt;h3 id=&quot;我的github-page&quot;&gt;我的github page&lt;/h3&gt;
+&lt;p&gt;博客搭建步骤:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;.    &lt;br /&gt;
+gem install jekyll&lt;br /&gt;
+gem install jekyll-pagstate&lt;br /&gt;
+jekyll server&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
