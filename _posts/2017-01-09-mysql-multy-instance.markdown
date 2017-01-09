@@ -162,3 +162,44 @@ mysql -u root --port=3307 -h 127.0.0.1 -p DatabaseOne < databaseOne.sql
 这样，我们可以成功地创建MySQL数据库实例并对两者数据库进行转换。我们可以遵循相同的方法来创建多个数据库实例。
 英文原文:http://www.codeproject.com/Tips/1063881/MySQL-Double-Instance-Creation-and-Database-Transf
 译文地址:http://coderschool.cn/1296.html
+
+
+
+
+
+mysql start tips
+
+[root@l-qics.y.cn7 /home/q/wall.wang/localhost]# sudo service mysqld start
+Initializing MySQL database:  Installing MySQL system tables...
+OK
+Filling help tables...
+OK
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+To do so, start the server, then issue the following commands:
+
+/usr/bin/mysqladmin -u root password 'new-password'
+/usr/bin/mysqladmin -u root -h l-qics.y.cn7 password 'new-password'
+
+Alternatively you can run:
+/usr/bin/mysql_secure_installation
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the manual for more instructions.
+
+You can start the MySQL daemon with:
+cd /usr ; /usr/bin/mysqld_safe &
+
+You can test the MySQL daemon with mysql-test-run.pl
+cd /usr/mysql-test ; perl mysql-test-run.pl
+
+Please report any problems with the /usr/bin/mysqlbug script!
+
+                                                           [  OK  ]
+Starting mysqld:                                           [  OK  ]
