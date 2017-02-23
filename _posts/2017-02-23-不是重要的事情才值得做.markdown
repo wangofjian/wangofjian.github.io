@@ -1,0 +1,25 @@
+---
+layout: post
+category: "read"
+title:  "Hello World! jekyll"
+tags: [阅读,人生]
+---
+# 你好，jekyll！
+### 我的github page  
+博客搭建步骤:
+>.      
+>gem install jekyll  
+>gem install jekyll-pagstate  
+>jekyll server  
+
+
+我想说的是
+
+不是找到微软的漏洞才叫牛人，才有意义
+不是赚大钱才是生活的方式
+
+要多样性，接受不一样的我
+
+
+比如，解决工作中的一个小问题，也是有意义的
+不要妄自菲薄
