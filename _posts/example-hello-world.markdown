@@ -1,15 +1,9 @@
 ---
 layout: post
-category: "read"
-title:  "Hello World! jekyll"
-tags: [阅读,人生]
+category: "defaultTags"
+title:  "Hello TiTLE"
+tags: [默认标签]
 ---
-# 你好，jekyll！
-### 我的github page  
-博客搭建步骤:
->.      
->gem install jekyll  
->gem install jekyll-pagstate  
->jekyll server  
-
+# 你好！
+这里是正文
 
